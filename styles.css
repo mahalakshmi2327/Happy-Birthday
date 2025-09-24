@@ -38,12 +38,16 @@ body {
 }
 
 .messageBox {
-  width: 80%; /* This makes the box take up 80% of the screen */
-  max-width: 500px; /* Prevents the box from getting too wide on large screens */
-  margin: 20px auto; /* Centers the box horizontally */
-  text-align: center;
-  padding: 20px;
-  /* Include your other styling here like background-color, border-radius, etc. */
+    width: 80%; /* Sets the width to 80% of the viewport width */
+    max-width: 500px; /* Prevents it from getting too big on large screens */
+    margin: 20px auto; /* Centers the box horizontally */
+    padding: 20px; /* Adds space inside the box */
+    /* Other styling you already have, like colors and shadows */
+    background-color: #4a5c9a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
 }
 
 video {
