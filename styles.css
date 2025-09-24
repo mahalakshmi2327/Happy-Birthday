@@ -36,3 +36,12 @@ body {
 .warning-box button:hover {
   background-color: #6270b5;
 }
+
+messageBox {
+  width: 80%; /* Adjust as needed */
+  max-width: 500px; /* To prevent it from being too big on a desktop */
+  text-align: center;
+  margin: 20px auto; /* Centers the box */
+  padding: 20px;
+  /* Add other styling as you like */
+}
