@@ -39,11 +39,11 @@ body {
 
 .messageBox {
   width: 80%; /* This makes the box take up 80% of the screen */
-  max-width: 500px; /* Prevents the box from getting too wide on desktop screens */
-  text-align: center;
+  max-width: 500px; /* Prevents the box from getting too wide on large screens */
   margin: 20px auto; /* Centers the box horizontally */
+  text-align: center;
   padding: 20px;
-  /* Add your other styling here like background-color, border-radius, etc. */
+  /* Include your other styling here like background-color, border-radius, etc. */
 }
 
 video {
