@@ -5,7 +5,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6285c2;
+    background-color: #6285c2; /* This is your existing background color */
+
+    /* Add the NEW background image properties here: */
+    background-image: url('bday-person.jpg'); /* Make sure this path is correct */
+    background-size: cover; /* This makes the image cover the entire background */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed (optional) */
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -16,7 +24,7 @@ body {
     padding: 50px 60px;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 8px 20px rgba(84, 91, 104, 0.13);
+    box-shadow: 0 8px 20px rgba(233, 236, 240, 0.13);
     max-width: 600px;
 }
 
